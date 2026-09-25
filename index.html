@@ -199,18 +199,45 @@ main{max-width:1200px;margin:auto;padding:22px 18px 90px}
 }
 .reference-hero-card::after{display:none}
 .reference-banner-frame{
+  position:relative;
   width:100%;
   overflow:hidden;
   border-radius:21px;
   background:#f7f0e4;
   box-shadow:0 7px 22px rgba(26,53,47,.06);
+  isolation:isolate;
+}
+.reference-banner-frame::after{
+  content:"";
+  position:absolute;
+  z-index:2;
+  inset:-35%;
+  pointer-events:none;
+  background:linear-gradient(112deg,transparent 42%,rgba(255,255,255,.16) 50%,transparent 58%);
+  transform:translateX(-62%);
+  animation:nakibWholesaleSheen 8s ease-in-out infinite;
 }
 .reference-banner{
+  position:relative;
+  z-index:1;
   display:block;
   width:100%;
   height:auto;
   aspect-ratio:971/269;
   object-fit:cover;
+  transform-origin:center;
+  animation:nakibWholesaleFloat 12s ease-in-out infinite;
+}
+@keyframes nakibWholesaleFloat{
+  0%,100%{transform:scale(1)}
+  50%{transform:scale(1.012)}
+}
+@keyframes nakibWholesaleSheen{
+  0%,62%{transform:translateX(-62%)}
+  82%,100%{transform:translateX(62%)}
+}
+@media (prefers-reduced-motion:reduce){
+  .reference-banner,.reference-banner-frame::after{animation:none!important}
 }
 
 .reference-hidden-copy{
