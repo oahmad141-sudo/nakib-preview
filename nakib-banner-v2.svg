@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 971 269" role="img" aria-label="NAKIB GROUP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#f4f8fb"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC23A"/>
+      <stop offset="1" stop-color="#F3A400"/>
+    </linearGradient>
+  </defs>
+  <rect width="971" height="269" rx="18" fill="url(#bg)"/>
+  <g opacity=".16">
+    <rect x="0" y="90" width="320" height="122" fill="#cfdde8"/>
+    <path d="M0 90 L140 48 L320 78 V212 H0Z" fill="#e2eaf0"/>
+    <g fill="#b9cbd8">
+      <rect x="28" y="112" width="34" height="25"/><rect x="76" y="102" width="34" height="25"/>
+      <rect x="124" y="94" width="34" height="25"/><rect x="172" y="96" width="34" height="25"/>
+      <rect x="220" y="102" width="34" height="25"/>
+    </g>
+    <path d="M676 105 H858 L904 129 H946 V194 H676Z" fill="#c6d6e1"/>
+    <rect x="708" y="122" width="128" height="72" fill="#dce6ed"/>
+    <path d="M836 137 H900 L924 154 V194 H836Z" fill="#becfda"/>
+    <circle cx="760" cy="197" r="18" fill="#a9bdca"/><circle cx="892" cy="197" r="18" fill="#a9bdca"/>
+  </g>
+  <path d="M0 116 C105 145 171 169 285 203 L223 223 C140 195 68 171 0 150Z" fill="url(#gold)" opacity=".95"/>
+  <g transform="translate(414,5) scale(.72)" fill="none" stroke="#FFB21A" stroke-width="25" stroke-linejoin="miter" stroke-linecap="butt">
+    <path d="M42 146V58L82 34V124L122 148V60"/>
+    <path d="M122 60L162 84V146L122 170L82 146V116"/>
+  </g>
+  <text x="485.5" y="202" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="800" fill="#073E78" letter-spacing=".5">NAKIB GROUP</text>
+  <text x="485.5" y="228" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#073E78" letter-spacing="2.2">İÇ VE DIŞ TİCARET ŞİRKETİ</text>
+</svg>
